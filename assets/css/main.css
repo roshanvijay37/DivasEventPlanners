@@ -1,8 +1,8 @@
 /**
 * Template Name:  G3BuildersAndArchitects - v1.3.0
-* Template URL: https://bootstrapmade.com/ G3BuildersAndArchitects-bootstrap-construction-website-template/
+* Template URL: https://roshanvijay.com/ G3BuildersAndArchitects-bootstrap-construction-website-template/
 * Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
+* License: https://roshanvijay.com/license/
 */
 
 /*--------------------------------------------------------------
@@ -19,7 +19,7 @@
 /* Colors */
 :root {
   --color-default: #364d59;
-  --color-primary: #feb900;
+  --color-primary: #00f6fe;
   --color-secondary: #52565e;
 }
 
@@ -43,7 +43,7 @@ a {
 }
 
 a:hover {
-  color: #ffc732;
+  color: #00f6fe;
   text-decoration: none;
 }
 
@@ -188,7 +188,7 @@ section {
 }
 
 .scroll-top:hover {
-  background: #ffc732;
+  background: #00f6fe;
   color: #fff;
 }
 
@@ -668,7 +668,7 @@ section {
 }
 
 .get-started .php-email-form button[type=submit]:hover {
-  background: rgba(254, 185, 0, 0.8);
+  background: rgba(0, 246, 254, 1);
 }
 
 @-webkit-keyframes animate-loading {
@@ -1044,13 +1044,13 @@ section {
 }
 
 .testimonials .testimonial-item .stars i {
-  color: #ffc107;
+  color: #00f6fe;
   margin: 0 1px;
 }
 
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
-  color: #ffd565;
+  color: #00f6fe;
   font-size: 26px;
   line-height: 0;
 }
@@ -1514,7 +1514,7 @@ section {
 }
 
 .project-details .portfolio-info .btn-visit:hover {
-  background: #ffc019;
+  background: #00f6fe;
 }
 
 .project-details .portfolio-description h2 {
@@ -1559,7 +1559,7 @@ section {
 
 .project-details .portfolio-description .testimonial-item .quote-icon-left,
 .project-details .portfolio-description .testimonial-item .quote-icon-right {
-  color: #ffd565;
+  color: #00f6fe;
   font-size: 26px;
   line-height: 0;
 }
@@ -1666,7 +1666,7 @@ section {
   line-height: 0;
   color: var(--color-primary);
   border-radius: 50%;
-  border: 2px dotted #ffd565;
+  border: 2px dotted #00f6fe;
 }
 
 .contact .info-item h3 {
@@ -1766,7 +1766,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: rgba(254, 185, 0, 0.8);
+  background: rgba(0, 246, 254, 1);
 }
 
 @keyframes animate-loading {
@@ -2367,7 +2367,7 @@ section {
 }
 
 .blog .sidebar .search-form form button:hover {
-  background: rgba(254, 185, 0, 0.8);
+  background: rgba(0, 246, 254, 1);
 }
 
 .blog .sidebar .categories ul {
@@ -2545,7 +2545,7 @@ section {
 
 .blog .comments .reply-form input:focus {
   box-shadow: none;
-  border-color: rgba(254, 185, 0, 0.8);
+  border-color: rgba(0, 246, 254, 1);
 }
 
 .blog .comments .reply-form textarea {
@@ -2556,7 +2556,7 @@ section {
 
 .blog .comments .reply-form textarea:focus {
   box-shadow: none;
-  border-color: rgba(254, 185, 0, 0.8);
+  border-color: rgba(0, 246, 254, 1);
 }
 
 .blog .comments .reply-form .form-group {
@@ -2687,4 +2687,85 @@ section {
 
 .footer .footer-legal .credits a {
   color: var(--color-primary);
+}
+
+/*--------------------------------------------------------------
+# Our ceo Section
+--------------------------------------------------------------*/
+.ceo .member {
+  position: relative;
+  align-items: center;
+}
+
+.ceo .member .member-img {
+  margin: 0 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+}
+
+@media (max-width: 1024px) {
+  .ceo .member .member-img {
+    margin: 0 60px;
+  }
+}
+
+.ceo .member .member-img img {
+  position: relative;
+  z-index: 1;
+}
+
+.ceo .member .member-img .social {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  padding-bottom: 20px;
+  transition: 0.3s;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.ceo .member .member-img .social a {
+  transition: 0.3s;
+  color: #fff;
+  font-size: 20px;
+  margin: 0 8px;
+}
+
+.ceo .member .member-img .social a:hover {
+  color: var(--color-primary);
+}
+
+.ceo .member .member-info {
+  margin-top: 30px;
+}
+
+.ceo .member .member-info h4 {
+  font-weight: 700;
+  margin-bottom: 6px;
+  font-size: 18px;
+  color: var(--color-secondary);
+}
+
+.ceo .member .member-info span {
+  font-style: italic;
+  display: block;
+  font-size: 15px;
+  color: #838893;
+  margin-bottom: 10px;
+}
+
+.ceo .member .member-info p {
+  margin-bottom: 0;
+  font-size: 14px;
+}
+
+.ceo .member:hover .member-img .social {
+  padding-bottom: 0;
+  visibility: visible;
+  opacity: 1;
 }

@@ -1,8 +1,8 @@
 /**
 * Template Name:  G3BuildersAndArchitects - v1.3.0
-* Template URL: https://bootstrapmade.com/ G3BuildersAndArchitects-bootstrap-construction-website-template/
+* Template URL: https://roshanvijay.com/ G3BuildersAndArchitects-bootstrap-construction-website-template/
 * Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
+* License: https://roshanvijay.com/license/
 */
 document.addEventListener('DOMContentLoaded', () => {
   "use strict";
