@@ -2693,12 +2693,18 @@ section {
 # Our ceo Section
 --------------------------------------------------------------*/
 .ceo .member {
-  position: relative;
+  display: flex;
+  flex-direction: column;
   align-items: center;
+  text-align: center;
+}
+
+.member-img {
+  text-align: center;
 }
 
 .ceo .member .member-img {
-  margin: 0 80px;
+  margin: 0 ;
   border-radius: 50%;
   overflow: hidden;
   position: relative;
@@ -2711,8 +2717,9 @@ section {
 }
 
 .ceo .member .member-img img {
-  position: relative;
-  z-index: 1;
+  display: block;
+  margin: 0 auto; /* Center the image */
+  border-radius: 50%;
 }
 
 .ceo .member .member-img .social {
@@ -2768,4 +2775,56 @@ section {
   padding-bottom: 0;
   visibility: visible;
   opacity: 1;
+}
+
+/*--------------------------------------------------------------
+# section-ceos & section-ceo Header
+--------------------------------------------------------------*/
+section-ceo {
+  padding: 80px 0;
+  overflow: hidden;
+}
+
+.section-ceo-bg {
+  background-color: #f5f6f7;
+}
+
+.section-ceo-header {
+  text-align: center;
+  padding-top : 50px;
+  padding-bottom: 20px;
+}
+
+.section-ceo-header h2 {
+  font-size: 32px;
+  font-weight: 700;
+  position: relative;
+  color: #2e3135;
+}
+
+.section-ceo-header h2:before,
+.section-ceo-header h2:after {
+  content: "";
+  width: 50px;
+  height: 2px;
+  background: var(--color-primary);
+  display: inline-block;
+}
+
+.section-ceo-header h2:before {
+  margin: 0 15px 10px 0;
+}
+
+.section-ceo-header h2:after {
+  margin: 0 0 10px 15px;
+}
+
+.section-ceo-header p {
+  margin: 0 auto 0 auto;
+}
+
+@media (min-width: 1199px) {
+  .section-ceo-header p {
+    max-width: 60%;
+  }
 }
