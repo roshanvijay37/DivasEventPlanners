@@ -1779,6 +1779,10 @@ section {
   }
 }
 
+.contact .row {
+  padding-bottom: 80px; /* Adjust the value as needed */
+}
+
 /*--------------------------------------------------------------
 # Recent Blog Posts Section
 --------------------------------------------------------------*/
